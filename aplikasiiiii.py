@@ -1,7 +1,6 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
 
 # Fungsi untuk menghitung persamaan regresi linier dan koefisien korelasi
 def calculate_regression_equation(X, Y, var_name_x='x', var_name_y='y'):
