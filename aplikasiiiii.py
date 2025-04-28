@@ -174,7 +174,7 @@ def main():
             y_input = st.number_input(f'Masukkan nilai {var_name_y} yang ingin dihitung X-nya:', value=0.0)
 
             if y_input is not None:
-                # Menghitung nilai X berdasarkan Y menggunakan persamaan regresi
+            # Menghitung nilai X berdasarkan Y menggunakan persamaan regresi
                 b = regression_info['slope']
                 a = regression_info['intercept']
                 if b != 0:
